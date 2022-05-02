@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		486C0A2D2820417100E03665 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486C0A2C2820417100E03665 /* AppDelegate.swift */; };
 		486C0A2F2820417100E03665 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486C0A2E2820417100E03665 /* SceneDelegate.swift */; };
-		486C0A312820417100E03665 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486C0A302820417100E03665 /* ViewController.swift */; };
+		486C0A312820417100E03665 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486C0A302820417100E03665 /* HomeViewController.swift */; };
 		486C0A372820417100E03665 /* MusicPlayer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 486C0A352820417100E03665 /* MusicPlayer.xcdatamodeld */; };
 		486C0A392820417300E03665 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 486C0A382820417300E03665 /* Assets.xcassets */; };
 		486C0A3C2820417300E03665 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 486C0A3A2820417300E03665 /* LaunchScreen.storyboard */; };
 		486C0A472820417300E03665 /* MusicPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486C0A462820417300E03665 /* MusicPlayerTests.swift */; };
 		486C0A512820417300E03665 /* MusicPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486C0A502820417300E03665 /* MusicPlayerUITests.swift */; };
 		486C0A532820417300E03665 /* MusicPlayerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486C0A522820417300E03665 /* MusicPlayerUITestsLaunchTests.swift */; };
+		486C0A63282044E800E03665 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486C0A62282044E800E03665 /* CardViewModel.swift */; };
+		486C0A6828204AC600E03665 /* NSTextAttachment + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486C0A6528204AC500E03665 /* NSTextAttachment + Extension.swift */; };
+		486C0A6928204AC600E03665 /* NSAttributedString + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486C0A6628204AC500E03665 /* NSAttributedString + Extension.swift */; };
+		486C0A6A28204AC600E03665 /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486C0A6728204AC500E03665 /* UIView + Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +43,7 @@
 		486C0A292820417100E03665 /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		486C0A2C2820417100E03665 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		486C0A2E2820417100E03665 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		486C0A302820417100E03665 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		486C0A302820417100E03665 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		486C0A362820417100E03665 /* MusicPlayer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MusicPlayer.xcdatamodel; sourceTree = "<group>"; };
 		486C0A382820417300E03665 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		486C0A3B2820417300E03665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		486C0A4C2820417300E03665 /* MusicPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		486C0A502820417300E03665 /* MusicPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerUITests.swift; sourceTree = "<group>"; };
 		486C0A522820417300E03665 /* MusicPlayerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		486C0A62282044E800E03665 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		486C0A6528204AC500E03665 /* NSTextAttachment + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSTextAttachment + Extension.swift"; path = "../../../../../Downloads/AppMusicBF/AppMusicBF/Extension/NSTextAttachment + Extension.swift"; sourceTree = "<group>"; };
+		486C0A6628204AC500E03665 /* NSAttributedString + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSAttributedString + Extension.swift"; path = "../../../../../Downloads/AppMusicBF/AppMusicBF/Extension/NSAttributedString + Extension.swift"; sourceTree = "<group>"; };
+		486C0A6728204AC500E03665 /* UIView + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView + Extension.swift"; path = "../../../../../Downloads/AppMusicBF/AppMusicBF/Extension/UIView + Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +107,11 @@
 		486C0A2B2820417100E03665 /* MusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				486C0A6428204AB700E03665 /* Extension */,
+				486C0A61282044D400E03665 /* Card */,
+				486C0A5F282043EE00E03665 /* Home */,
 				486C0A2C2820417100E03665 /* AppDelegate.swift */,
 				486C0A2E2820417100E03665 /* SceneDelegate.swift */,
-				486C0A302820417100E03665 /* ViewController.swift */,
 				486C0A382820417300E03665 /* Assets.xcassets */,
 				486C0A3A2820417300E03665 /* LaunchScreen.storyboard */,
 				486C0A3D2820417300E03665 /* Info.plist */,
@@ -125,6 +135,32 @@
 				486C0A522820417300E03665 /* MusicPlayerUITestsLaunchTests.swift */,
 			);
 			path = MusicPlayerUITests;
+			sourceTree = "<group>";
+		};
+		486C0A5F282043EE00E03665 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				486C0A302820417100E03665 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		486C0A61282044D400E03665 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				486C0A62282044E800E03665 /* CardViewModel.swift */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		486C0A6428204AB700E03665 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				486C0A6628204AC500E03665 /* NSAttributedString + Extension.swift */,
+				486C0A6528204AC500E03665 /* NSTextAttachment + Extension.swift */,
+				486C0A6728204AC500E03665 /* UIView + Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,10 +293,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				486C0A312820417100E03665 /* ViewController.swift in Sources */,
+				486C0A312820417100E03665 /* HomeViewController.swift in Sources */,
 				486C0A2D2820417100E03665 /* AppDelegate.swift in Sources */,
+				486C0A6828204AC600E03665 /* NSTextAttachment + Extension.swift in Sources */,
 				486C0A372820417100E03665 /* MusicPlayer.xcdatamodeld in Sources */,
+				486C0A6A28204AC600E03665 /* UIView + Extension.swift in Sources */,
 				486C0A2F2820417100E03665 /* SceneDelegate.swift in Sources */,
+				486C0A6928204AC600E03665 /* NSAttributedString + Extension.swift in Sources */,
+				486C0A63282044E800E03665 /* CardViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
