@@ -20,6 +20,7 @@
 		486C0A6828204AC600E03665 /* NSTextAttachment + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486C0A6528204AC500E03665 /* NSTextAttachment + Extension.swift */; };
 		486C0A6928204AC600E03665 /* NSAttributedString + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486C0A6628204AC500E03665 /* NSAttributedString + Extension.swift */; };
 		486C0A6A28204AC600E03665 /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486C0A6728204AC500E03665 /* UIView + Extension.swift */; };
+		486C0A7028204CCF00E03665 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486C0A6F28204CCF00E03665 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		486C0A6528204AC500E03665 /* NSTextAttachment + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSTextAttachment + Extension.swift"; path = "../../../../../Downloads/AppMusicBF/AppMusicBF/Extension/NSTextAttachment + Extension.swift"; sourceTree = "<group>"; };
 		486C0A6628204AC500E03665 /* NSAttributedString + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSAttributedString + Extension.swift"; path = "../../../../../Downloads/AppMusicBF/AppMusicBF/Extension/NSAttributedString + Extension.swift"; sourceTree = "<group>"; };
 		486C0A6728204AC500E03665 /* UIView + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView + Extension.swift"; path = "../../../../../Downloads/AppMusicBF/AppMusicBF/Extension/UIView + Extension.swift"; sourceTree = "<group>"; };
+		486C0A6F28204CCF00E03665 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,15 +109,13 @@
 		486C0A2B2820417100E03665 /* MusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				486C0A732820502F00E03665 /* Resources */,
 				486C0A6428204AB700E03665 /* Extension */,
 				486C0A61282044D400E03665 /* Card */,
 				486C0A5F282043EE00E03665 /* Home */,
-				486C0A2C2820417100E03665 /* AppDelegate.swift */,
-				486C0A2E2820417100E03665 /* SceneDelegate.swift */,
-				486C0A382820417300E03665 /* Assets.xcassets */,
-				486C0A3A2820417300E03665 /* LaunchScreen.storyboard */,
+				486C0A6D28204BE800E03665 /* SplashScreen */,
+				486C0A6C28204BDF00E03665 /* Source */,
 				486C0A3D2820417300E03665 /* Info.plist */,
-				486C0A352820417100E03665 /* MusicPlayer.xcdatamodeld */,
 			);
 			path = MusicPlayer;
 			sourceTree = "<group>";
@@ -140,7 +140,8 @@
 		486C0A5F282043EE00E03665 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				486C0A302820417100E03665 /* HomeViewController.swift */,
+				486C0A7128204D1800E03665 /* View */,
+				486C0A7228204D2000E03665 /* ViewController */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -161,6 +162,64 @@
 				486C0A6728204AC500E03665 /* UIView + Extension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		486C0A6B28204BD100E03665 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				486C0A2E2820417100E03665 /* SceneDelegate.swift */,
+				486C0A2C2820417100E03665 /* AppDelegate.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		486C0A6C28204BDF00E03665 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				486C0A382820417300E03665 /* Assets.xcassets */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		486C0A6D28204BE800E03665 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				486C0A3A2820417300E03665 /* LaunchScreen.storyboard */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		486C0A6E28204BF900E03665 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				486C0A352820417100E03665 /* MusicPlayer.xcdatamodeld */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		486C0A7128204D1800E03665 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				486C0A6F28204CCF00E03665 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		486C0A7228204D2000E03665 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				486C0A302820417100E03665 /* HomeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		486C0A732820502F00E03665 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				486C0A6B28204BD100E03665 /* Common */,
+				486C0A6E28204BF900E03665 /* Database */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,6 +352,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				486C0A7028204CCF00E03665 /* HomeView.swift in Sources */,
 				486C0A312820417100E03665 /* HomeViewController.swift in Sources */,
 				486C0A2D2820417100E03665 /* AppDelegate.swift in Sources */,
 				486C0A6828204AC600E03665 /* NSTextAttachment + Extension.swift in Sources */,
