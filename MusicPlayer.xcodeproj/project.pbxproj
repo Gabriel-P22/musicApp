@@ -21,6 +21,8 @@
 		486C0A6928204AC600E03665 /* NSAttributedString + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486C0A6628204AC500E03665 /* NSAttributedString + Extension.swift */; };
 		486C0A6A28204AC600E03665 /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486C0A6728204AC500E03665 /* UIView + Extension.swift */; };
 		486C0A7028204CCF00E03665 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486C0A6F28204CCF00E03665 /* HomeView.swift */; };
+		486C0A75282052F200E03665 /* CardViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486C0A74282052F200E03665 /* CardViewCell.swift */; };
+		486C0A79282055D100E03665 /* CardUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486C0A78282055D100E03665 /* CardUiView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		486C0A6628204AC500E03665 /* NSAttributedString + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSAttributedString + Extension.swift"; path = "../../../../../Downloads/AppMusicBF/AppMusicBF/Extension/NSAttributedString + Extension.swift"; sourceTree = "<group>"; };
 		486C0A6728204AC500E03665 /* UIView + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView + Extension.swift"; path = "../../../../../Downloads/AppMusicBF/AppMusicBF/Extension/UIView + Extension.swift"; sourceTree = "<group>"; };
 		486C0A6F28204CCF00E03665 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		486C0A74282052F200E03665 /* CardViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewCell.swift; sourceTree = "<group>"; };
+		486C0A78282055D100E03665 /* CardUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardUiView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +144,7 @@
 		486C0A5F282043EE00E03665 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				486C0A762820533400E03665 /* Cell */,
 				486C0A7128204D1800E03665 /* View */,
 				486C0A7228204D2000E03665 /* ViewController */,
 			);
@@ -149,6 +154,7 @@
 		486C0A61282044D400E03665 /* Card */ = {
 			isa = PBXGroup;
 			children = (
+				486C0A77282055AC00E03665 /* CustomView */,
 				486C0A62282044E800E03665 /* CardViewModel.swift */,
 			);
 			path = Card;
@@ -220,6 +226,22 @@
 				486C0A6E28204BF900E03665 /* Database */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		486C0A762820533400E03665 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				486C0A74282052F200E03665 /* CardViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		486C0A77282055AC00E03665 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				486C0A78282055D100E03665 /* CardUiView.swift */,
+			);
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -354,12 +376,14 @@
 			files = (
 				486C0A7028204CCF00E03665 /* HomeView.swift in Sources */,
 				486C0A312820417100E03665 /* HomeViewController.swift in Sources */,
+				486C0A75282052F200E03665 /* CardViewCell.swift in Sources */,
 				486C0A2D2820417100E03665 /* AppDelegate.swift in Sources */,
 				486C0A6828204AC600E03665 /* NSTextAttachment + Extension.swift in Sources */,
 				486C0A372820417100E03665 /* MusicPlayer.xcdatamodeld in Sources */,
 				486C0A6A28204AC600E03665 /* UIView + Extension.swift in Sources */,
 				486C0A2F2820417100E03665 /* SceneDelegate.swift in Sources */,
 				486C0A6928204AC600E03665 /* NSAttributedString + Extension.swift in Sources */,
+				486C0A79282055D100E03665 /* CardUiView.swift in Sources */,
 				486C0A63282044E800E03665 /* CardViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
